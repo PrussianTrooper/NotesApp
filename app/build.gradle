@@ -8,6 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
+        viewBinding.enabled =true
         applicationId "com.example.newappnotes.notesapp.trupper"
         minSdkVersion 21
         targetSdkVersion 30
